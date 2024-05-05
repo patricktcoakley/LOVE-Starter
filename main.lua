@@ -6,7 +6,7 @@ function love.load()
 
 end
 
-function love.update()
+function love.update(dt)
     if love.keyboard.isDown("escape") then
         love.event.quit()
     end
